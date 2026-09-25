@@ -10,18 +10,18 @@
 
 START paycheck_calculator
 
-    TODO: Obtain the required program input.
+    GET employee number of worked hours
 
-    IF TODO: Specify the condition for the applicable pay rule.
-        TODO: List the processing steps for the true decision path.
+    IF employee worked hours is less than 40 
+        employee salary * number of hours = employee paycheck
     ELSE
-        TODO: List the processing steps for the false decision path.
-    ENDIF
+        employee hours - 40 hours = overtime hours, over time hours * $30 per hour = overtime salary
+        empoyee has overtime salary add overtime salary to employee salary
 
-    TODO: Output the calculated weekly paycheck.
+    LET Output the calculated weekly paycheck.
 
 END paycheck_calculator
 
 
 # === References ===
-# TODO: List outside sources or assistance you actually used, or delete this line.
+# 
